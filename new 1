@@ -10,51 +10,62 @@
 
 h2  { color:red;
  text-align: center;
-
+ background-color: white;
+font-family: 'Montserrat', sans-serif;
  }
 
 
-		h1 { 
+		h1 {
+		font-family: 'Montserrat', sans-serif;
 	color:red;
 	font-size:100pt;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
+	margin-top: 15px;
+		text-align: center;
 	padding: 30px;
-	width: 560px;
-	
-	border: 10px dotted blue;}
-
+	width: 590px;
+	border-radius: 150px;
+	border: 10px solid blue;
+	background-color: white;}
+		
 		body {
 
 	background-position: center;
     background-image: url('nasa.jpg');
-	background-size: 200px;
+	background-size: 150px;
 	
 	}
-
+		p{
+		margin-top: 30px;
+		}
 		
 	
 		div {
 	background-color: white;
 	margin-left: auto;
-	margin-right: auto;
-	margin-top: 40px;
+	margin-right: 500px;
+	margin-top: 80px;
 	padding: 30px;
 	width: 800px;
-	
+	border-radius: 150px;
 	border: 10px solid blue;
-	}
+	height: 1000px;
 
+	}
+     img{
+	 float: right;
+	 }
 
 </style>
 </head>
 
 <body>
-<div>
-<h1> NASA</h1>
 
+<h1>NASA</h1>
+<img src="s5.jpg" width="470" height="1100">
+<div>
 <p> Orci varius natoque penatibus et magnis dis parturient montes, 
 nascetur ridiculus mus. Sed pellentesque blandit cursus. Phasellus
  condimentum maximus volutpat. In dui odio, rutrum a ante non, tempor 
@@ -83,7 +94,7 @@ massa at quam auctor, ut egestas lectus convallis.</p>
 </ol>
 
 
-<img src="pacman.jpg" width="300px">
+
 </div>	
 
 </body>
